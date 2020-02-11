@@ -28,6 +28,7 @@ public class BonusMember {
         int antall_dager = (int) (Period.between(inputDate, enrolledDate).getMonths() * 30.416668 + Period.between(inputDate, enrolledDate).getDays());
         int antall_år = Period.between(inputDate, enrolledDate).getYears();
 
+        //Endre antall år og dager til positivt
         if(antall_år < 0 && antall_dager+365 > 0) {
             return 0;
         }
@@ -56,5 +57,12 @@ return getPoints();
 
     public int getPoints() {
         return point;
+    }
+
+    @Override
+    public String toString() {
+        return ("NO: " + this.getMemberNo() +
+                "\nPoints: " + this.getPoints() +
+                "\nPersonals: "+ this.getPersonals());
     }
 }

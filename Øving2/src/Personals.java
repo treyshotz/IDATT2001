@@ -61,4 +61,10 @@ class Personals {
             return true;
         }
     }
+
+    @Override
+    public String toString() {
+        return "\n\nEpost: " +this.ePostadr +
+        "\nFornavn " + this.firstname + "\nEtternavn " + this.surname;
+    }
 }
