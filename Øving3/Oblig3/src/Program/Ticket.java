@@ -1,5 +1,7 @@
+package Program;
+
 /**
- * Klassen Ticket med subklasser
+ * Klassen Program.Ticket med subklasser
  * Denne blir delt ut sammen med øvingen
  */
 class Ticket {
@@ -23,6 +25,6 @@ class Ticket {
         return price;
     }
     public String toString() {
-        return "Tribune: "+tribuneName + " Pris: "+price;
+        return "Program.Tribune: "+tribuneName + " Pris: "+price;
     }
 }

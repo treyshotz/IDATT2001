@@ -1,3 +1,5 @@
+package Program;
+
 import java.util.ArrayList;
 
 abstract class Tribune {

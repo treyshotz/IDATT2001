@@ -1,3 +1,5 @@
+package Program;
+
 /**
  * Sitteplassbilletter. Rad og plass på raden må oppgis.
  */

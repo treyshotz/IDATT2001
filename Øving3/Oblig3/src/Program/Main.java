@@ -1,4 +1,5 @@
-import java.lang.reflect.Array;
+package Program;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -24,14 +25,14 @@ public class Main {
         System.out.println("Test 2.2: " + t1.toString());
 
 
-        //Kjøper 10 VIP-biletter uten å oppgi navn. Skal returnere null
+        //Kjøper 10 Program.VIP-biletter uten å oppgi navn. Skal returnere null
 
         //Skal returnere null
         System.out.println("Test 3.1: " + t2.buyTicket(10));
         //Skal ha 0 solgte biletter og inntekt
         System.out.println("Test 3.2: " + t2.toString());
 
-        //Kjøper 3 VIP-biletter med navn
+        //Kjøper 3 Program.VIP-biletter med navn
         System.out.println("Test 4.1: " + t2.buyTicket(names));
         System.out.println("Test 4.2: " + t2.toString());
         for(int i = 0; i < 10; i++) {

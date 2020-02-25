@@ -1,3 +1,5 @@
+package Program;
+
 import java.util.*;
 
 public class Sit extends Tribune{

@@ -1,6 +1,6 @@
-import java.lang.reflect.Array;
+package Program;
+
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class VIP extends Tribune {
 
@@ -159,10 +159,10 @@ public class VIP extends Tribune {
 /*
 
     @Override
-    ArrayList<Ticket> buyTicket(ArrayList<String> names) {
+    ArrayList<Program.Ticket> buyTicket(ArrayList<String> names) {
         if(!isArrayset) initiateArrayList();
 
-        ArrayList<Ticket> boughtTickets = new ArrayList<>();
+        ArrayList<Program.Ticket> boughtTickets = new ArrayList<>();
         int rowAvailable =0;
         int startIndexI = getStartIndex(names.size()).get(0);
         int startIndexJ = getStartIndex(names.size()).get(1);
@@ -200,7 +200,7 @@ public class VIP extends Tribune {
             for (int i = 0; i < names.size(); i++) {
                 System.out.println(spectator.toString());
                 spectator.get(a).set(startIndexJ, names.get(i));
-                Ticket t = new SittingTicket(getTribuneName(), getPrice(), a, i + 1);
+                Program.Ticket t = new Program.SittingTicket(getTribuneName(), getPrice(), a, i + 1);
                 boughtTickets.add(t);
                 startIndexJ++;
             }
