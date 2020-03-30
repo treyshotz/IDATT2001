@@ -1,0 +1,11 @@
+
+0
+java:S1220""Move this file to a named package.
+T
+java:S1128"?Remove this unused import 'java.util.IllformedLocaleException'.(όϋ­
+_
+java:S1128"DRemove this unused import 'org.junit.platform.commons.function.Try'.(ª·ώÿÿÿÿ
+U
+java:S1854"?Remove this useless assignment to local variable "bonusMember".(έτ¶
+F
+java:S1481"0Remove this unused "bonusMember" local variable.(έτ¶

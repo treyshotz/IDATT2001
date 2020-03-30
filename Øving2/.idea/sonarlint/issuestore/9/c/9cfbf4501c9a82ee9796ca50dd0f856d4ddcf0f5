@@ -1,0 +1,56 @@
+
+‡
+java:S1319©"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¨¯ê
+Œ
+java:S1319±"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(€ò¥ÿÿÿÿÿ
+‡
+java:S1319¹"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ĞÅõ‡
+|
+java:S4165"fRemove this useless assignment; "register" already holds the assigned value along all execution paths.(˜¢ğ˜
+J
+java:S1066p"/Merge this if statement with the enclosing one.(¨µÜ‘ùÿÿÿÿ
+F
+java:S1066Š"/Merge this if statement with the enclosing one.(ºĞĞ¾
+K
+java:S1066›"/Merge this if statement with the enclosing one.(óˆúÂşÿÿÿÿ
+Y
+java:S1155"">Use isEmpty() to check whether the collection is empty or not.(€åÉ¹üÿÿÿÿ
+U
+java:S1155è">Use isEmpty() to check whether the collection is empty or not.(­í¸Ú
+U
+java:S1155è">Use isEmpty() to check whether the collection is empty or not.(­í¸Ú
+Z
+java:S1155ï">Use isEmpty() to check whether the collection is empty or not.(§‹€Çùÿÿÿÿ
+f	java:S117r"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù®ğÓ
+f	java:S117w"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒÜ“³
+0
+java:S1220""Move this file to a named package.
+R
+java:S2589 "7Remove this expression which always evaluates to "true"(Ü´ Ëşÿÿÿÿ
+S
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¼Ÿşÿÿÿÿÿ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(…’ ×
+[
+java:S1124	"EReorder the modifiers to comply with the Java Language Specification.(ò·ğ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(×²¶µùÿÿÿÿ
+O
+java:S1854%"9Remove this useless assignment to local variable "found".(·”íŒ
+S	java:S106k"9Replace this use of System.out or System.err by a logger.(ÛÂäüÿÿÿÿ
+S	java:S106t"9Replace this use of System.out or System.err by a logger.(„«»Œûÿÿÿÿ
+N	java:S106y"9Replace this use of System.out or System.err by a logger.(ÿŒ›î
+O	java:S106Ğ"9Replace this use of System.out or System.err by a logger.(‚•ù˜
+T	java:S106İ"9Replace this use of System.out or System.err by a logger.(¼¡éšüÿÿÿÿ
+O	java:S106è"9Replace this use of System.out or System.err by a logger.(­í¸Ú
+T	java:S106ï"9Replace this use of System.out or System.err by a logger.(§‹€Çùÿÿÿÿ
+A
+java:S1068	"+Remove this unused "MAX_TRY" private field.(ò·ğ
+E
+java:S1068"*Remove this unused "RANDOM" private field.(×²¶µùÿÿÿÿ
+R	java:S125Ñ"<This block of commented-out lines of code should be removed.(¾ëÈ¿
+W	java:S125×"<This block of commented-out lines of code should be removed.(Øı ıÿÿÿÿÿ
+W	java:S125å"<This block of commented-out lines of code should be removed.(å€‚×üÿÿÿÿ
+W	java:S125ì"<This block of commented-out lines of code should be removed.(å€‚×üÿÿÿÿ

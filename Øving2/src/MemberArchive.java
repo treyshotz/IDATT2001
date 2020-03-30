@@ -6,15 +6,15 @@ import java.util.stream.Collectors;
 public class MemberArchive   {
     private final static int SILVER_LIMIT = 25000;
     private final static int GOLD_LIMIT = 75000;
-    private final static int MAx_TRY = 3;
+    private final static int MAX_TRY = 3;
     private static Random r = new Random();
     private final static int RANDOM = r.nextInt();
     private ArrayList<BonusMember> register = new ArrayList<>();
 
     public MemberArchive() {
-        this.register = register;
     }
 
+    //Tror ikke det er nødvendig å legge til exception her da bonus member inneholder exception
     public int newMember(Personals p, LocalDate t) {
         int n = findAvailableNO();
         BonusMember m = new BasicMember(n, p, t);
@@ -30,7 +30,7 @@ public class MemberArchive   {
         boolean found = false;
         while(!found) {
             int n = r.nextInt();
-            if(register.size() == 0) return n;
+            if(register.isEmpty()) return n;
             for (BonusMember m : register) {
                 if (n != m.getMemberNo()) {
                     found = true;
@@ -43,11 +43,16 @@ public class MemberArchive   {
 
     /**
      * Finds a member with matching input
+     * Throws exception if memberNo is less than 0 or is password is null or empty
      * @param memberNo int
      * @param password string
      * @return points if found or -1 if not found
      */
     public int findPoints(int memberNo, String password) {
+        if(memberNo >= 0 || password == null || password.isEmpty()) {
+            throw new IllegalArgumentException("Input cannot be empty");
+        }
+
      for(BonusMember m : register) {
          if(m.okPassword(password) && m.getMemberNo() == memberNo) return m.getPoints();
      }
@@ -56,13 +61,23 @@ public class MemberArchive   {
 
     /**
      * Finds member with matching input and registers points if found
-     * @param memberNO int
+     * Throws exception if memberNo is smaller or equal to 0 since you cannot have that MemberNo
+     * Also throws exception if points is less than 0 since this could be exploited
+     * @param memberNo int
      * @param points int
      * @return true if member was found
      */
-    public boolean registerPoints(int memberNO, int points) {
+    public boolean registerPoints(int memberNo, int points) {
+
+        if(memberNo >= 0) {
+            throw new IllegalArgumentException("MemberNo cannot be 0");
+        }
+        if(points > 0) {
+            throw new IllegalArgumentException("Cannot give negative points");
+        }
+
         for(BonusMember m : register) {
-            if(m.getMemberNo() == memberNO) {
+            if(m.getMemberNo() == memberNo) {
                 m.registerPoints(points);
                 return true;
             }
@@ -70,7 +85,17 @@ public class MemberArchive   {
         return false;
     }
 
+
+    /**
+     * Checks all members to see if anyone is qualified to get upgraded to a higher ranking
+     * Casts exception if the date is null since it would create a nullpoint exception during runtime
+     * @param t localdate
+     */
     public void checkMembers(LocalDate t) {
+        if(t == null) {
+            throw new IllegalArgumentException("Date cannot be null");
+        }
+
         int index = 0;
         LocalDate d = LocalDate.now();
         for(BonusMember m : register) {
@@ -99,6 +124,13 @@ public class MemberArchive   {
         }
     }
 
+    /**
+     * Checks if a user can be upgraded to silver
+     * Could have added exception for date but qualification points has that exception
+     * @param memberNO
+     * @param t
+     * @return
+     */
     private BonusMember checkSilverLimit(int memberNO, LocalDate t) {
         BonusMember m = findMember(memberNO);
         if(m != null) {
@@ -109,6 +141,13 @@ public class MemberArchive   {
         return null;
     }
 
+    /**
+     * Checks if a user can be upgraded to gold
+     * Could have added exception for date but qualification points has that exception
+     * @param memberNo
+     * @param t
+     * @return
+     */
     private BonusMember checkGoldLimit(int memberNo, LocalDate t) {
         BonusMember m = findMember(memberNo);
         if(m != null) {
