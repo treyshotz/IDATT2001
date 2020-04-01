@@ -1,0 +1,57 @@
+
+0
+java:S1220""Move this file to a named package.
+Y	java:S125å"<This block of commented-out lines of code should be removed.(¾ëÈ¿8Ö„Şÿ’.
+\
+java:S1155ü">Use isEmpty() to check whether the collection is empty or not.(­í¸Ú8Ö„Şÿ’.
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(…’ ×
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(×²¶µùÿÿÿÿ
+V	java:S106ü"9Replace this use of System.out or System.err by a logger.(­í¸Ú8Ö„Şÿ’.
+m	java:S117r"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù®ğÓ8•ò­ÿ’.
+
+java:S1319Í"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ĞÅõ‡8Ö„Şÿ’.
+m	java:S117w"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒÜ“³8•ò­ÿ’.
+Z	java:S106t"9Replace this use of System.out or System.err by a logger.(„«»Œûÿÿÿÿ8•ò­ÿ’.
+
+java:S1319½"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¨¯ê8Ö„Şÿ’.
+E
+java:S1068"*Remove this unused "RANDOM" private field.(×²¶µùÿÿÿÿ
+Z	java:S106k"9Replace this use of System.out or System.err by a logger.(ÛÂäüÿÿÿÿ8•ò­ÿ’.
+U	java:S106y"9Replace this use of System.out or System.err by a logger.(ÿŒ›î8•ò­ÿ’.
+M
+java:S1066Š"/Merge this if statement with the enclosing one.(ºĞĞ¾8•ò­ÿ’.
+Q
+java:S1066p"/Merge this if statement with the enclosing one.(¨µÜ‘ùÿÿÿÿ8•ò­ÿ’.
+[	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(§‹€Çùÿÿÿÿ8Ö„Şÿ’.
+^	java:S125ë"<This block of commented-out lines of code should be removed.(Øı ıÿÿÿÿÿ8Ö„Şÿ’.
+U	java:S106!"9Replace this use of System.out or System.err by a logger.(†™ñ‹8åñ°ÿ’.
+R
+java:S2589"7Remove this expression which always evaluates to "true"(Ü´ Ëşÿÿÿÿ
+S
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ
+^	java:S125€"<This block of commented-out lines of code should be removed.(å€‚×üÿÿÿÿ8Ö„Şÿ’.
+\
+java:S1155ü">Use isEmpty() to check whether the collection is empty or not.(­í¸Ú8Ö„Şÿ’.
+R
+java:S1066›"/Merge this if statement with the enclosing one.(óˆúÂşÿÿÿÿ8•ò­ÿ’.
+A
+java:S1068	"+Remove this unused "MAX_TRY" private field.(ò·ğ
+a
+java:S1155ƒ">Use isEmpty() to check whether the collection is empty or not.(§‹€Çùÿÿÿÿ8Ö„Şÿ’.
+[	java:S106ñ"9Replace this use of System.out or System.err by a logger.(¼¡éšüÿÿÿÿ8Ö„Şÿ’.
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(òÁ½
+“
+java:S1319Å"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(€ò¥ÿÿÿÿÿ8Ö„Şÿ’.
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¼Ÿşÿÿÿÿÿ
+V
+java:S1854%"9Remove this useless assignment to local variable "found".(·”íŒ8•ò­ÿ’.
+[
+java:S1124	"EReorder the modifiers to comply with the Java Language Specification.(ò·ğ
+V	java:S106ä"9Replace this use of System.out or System.err by a logger.(‚•ù˜8Ö„Şÿ’.
+“
+java:S1319§"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¼ê­ßüÿÿÿÿ8•ò­ÿ’.
+^	java:S125ù"<This block of commented-out lines of code should be removed.(å€‚×üÿÿÿÿ8Ö„Şÿ’.
