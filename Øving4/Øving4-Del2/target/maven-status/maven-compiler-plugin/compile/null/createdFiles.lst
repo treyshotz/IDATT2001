@@ -1,9 +1,9 @@
+MainApp.class
+MainPageController.class
+BonusMemberTest.class
+BonusMember.class
 SilverMember.class
 Personals.class
 BasicMember.class
-MainApp.class
-MainPageController.class
 MemberArchive.class
-BonusMemberTest.class
 GoldMember.class
-BonusMember.class

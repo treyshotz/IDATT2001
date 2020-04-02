@@ -11,3 +11,7 @@ J
 src/main/java/MainApp.java,8/1/81dc6a441e53064fd676d90a54bdbed8bb400b17
 U
 %src/main/java/MainPageController.java,c/2/c217b2a3cb18780c0be3bb3edcb41847c1e8aee6
+K
+src/main/java/AlertBox.java,d/8/d817e831661d86473d92f051b030ee01cbd6e4bc
+G
+src/main/java/Main.java,e/4/e44a8606ce010ad9b89aafdfcee2ab49afbf6d10

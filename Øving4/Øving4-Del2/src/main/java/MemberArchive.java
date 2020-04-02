@@ -2,6 +2,8 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.stream.Collectors;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class MemberArchive   {
     private final static int SILVER_LIMIT = 25000;
@@ -10,11 +12,15 @@ public class MemberArchive   {
     private static Random r = new Random();
     private final static int RANDOM = r.nextInt();
     private ArrayList<BonusMember> register = new ArrayList<>();
+    private Logger logger;
 
     public MemberArchive() {
+        logger = LoggerFactory.getLogger("Obliglogger");
     }
 
     public MemberArchive(ArrayList<BonusMember> members) {
+        this.register = members;
+        logger = LoggerFactory.getLogger("Obliglogger");
 
     }
 
@@ -23,6 +29,7 @@ public class MemberArchive   {
         int n = findAvailableNO();
         BonusMember m = new BasicMember(n, p, t);
         register.add(m);
+        logger.info(m.getPersonals().getFirstname() + " ble lagt til i registeret");
         return n;
     }
 
@@ -83,10 +90,20 @@ public class MemberArchive   {
         for(BonusMember m : register) {
             if(m.getMemberNo() == memberNo) {
                 m.registerPoints(points);
+                logger.info(m.getPersonals().getFirstname() + " fikk registrert " + points + " nye poeng");
                 return true;
             }
         }
         return false;
+    }
+
+    public BonusMember findMemberByPersonals(Personals personals) {
+        for(BonusMember bonusMember : register) {
+            if(bonusMember.getPersonals().equals(personals)) {
+                return bonusMember;
+            }
+        }
+        return null;
     }
 
 
@@ -107,7 +124,8 @@ public class MemberArchive   {
                 if(checkGoldLimit(m.getMemberNo(), t) != null) {
                     BonusMember n = new GoldMember(m.getMemberNo(), m.getPersonals(), d, m.getPoints());
                     register.set(index, n);
-                    System.out.println(n.getPersonals().getFirstname() + " ble oppgradert til Gullmedlem\n");
+                    logger.info(n.getPersonals().getFirstname() + " ble oppgradert til Sølvmedlem");
+                    //System.out.println(n.getPersonals().getFirstname() + " ble oppgradert til Gullmedlem\n");
                 }
             }
 
@@ -116,12 +134,14 @@ public class MemberArchive   {
                     if(checkGoldLimit(m.getMemberNo(), t) != null) {
                         BonusMember M = new GoldMember(m.getMemberNo(), m.getPersonals(), d, m.getPoints());
                         register.set(index, M);
-                        System.out.println(M.getPersonals().getFirstname() + " ble oppgradert fra basic til GULL\n");
+                        logger.info(M.getPersonals().getFirstname() + " ble oppgradert til Gullmedlem");
+                        //System.out.println(M.getPersonals().getFirstname() + " ble oppgradert fra basic til GULL\n");
                         break;
                     }
                     BonusMember N = new SilverMember(m.getMemberNo(), m.getPersonals(), d, m.getPoints());
                     register.set(index, N);
-                    System.out.println(N.getPersonals().getFirstname() + " ble oppgradert til Sølvmedlem\n");
+                    logger.info(N.getPersonals().getFirstname() + " ble oppgradert til Sølvmedlem");
+                    //System.out.println(N.getPersonals().getFirstname() + " ble oppgradert til Sølvmedlem\n");
                 }
             }
             index++;
@@ -185,6 +205,7 @@ public class MemberArchive   {
         BonusMember bonusMember = findMember(memberNO);
         if(bonusMember != null) {
             register.remove(bonusMember);
+            logger.info(bonusMember.getPersonals().getFirstname() + " ble fjernet fra registeret");
             return true;
         }
         return false;

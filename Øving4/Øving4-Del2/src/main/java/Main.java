@@ -22,6 +22,8 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.logging.Level;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class Main extends Application implements EventHandler<ActionEvent> {
 
@@ -32,7 +34,7 @@ public class Main extends Application implements EventHandler<ActionEvent> {
 
 
 
-
+  private static Logger logger;
   MemberArchive memberArchive;
   ArrayList<BonusMember> members = new ArrayList<>();
   ObservableList<BonusMember> bonusMembers;
@@ -88,6 +90,7 @@ public class Main extends Application implements EventHandler<ActionEvent> {
    * @param args
    */
   public static void main(String[] args) throws IOException{
+    logger = LoggerFactory.getLogger("Obliglogger");
     launch(args);
      /*   try {
             Log mylog = new Log("oving4log.txt");
@@ -100,13 +103,19 @@ public class Main extends Application implements EventHandler<ActionEvent> {
   public void fillMemberArchive() throws IOException{
     Personals eksempelpersonals = new Personals("Mads","Lundegaard","@epost.no","Test123");
     Personals eksempelpersonals2 = new Personals("Eirik","Steira","@epost.no","Test123");
+    Personals eksempelpersonals3 = new Personals("Simon", "Jensen", "@epost.no", "Test123");
+    Personals eksempelpersonals4 = new Personals("Lars", "Brodin", "@epost.no", "Test123");
     BasicMember a = new BasicMember(1, eksempelpersonals, LocalDate.of(2010, 10, 10));
     BasicMember b = new BasicMember(2,eksempelpersonals2,LocalDate.of(2011, 11, 11));
     this.members.add(a);
     this.members.add(b);
     memberArchive = new MemberArchive(members);
+    memberArchive.newMember(eksempelpersonals3, LocalDate.of(2010, 10, 10));
+    memberArchive.newMember(eksempelpersonals4, LocalDate.of(2011, 11, 11));
     memberArchive.registerPoints(1,1000);
     memberArchive.registerPoints(2,30005);
+    memberArchive.registerPoints(memberArchive.findMemberByPersonals(eksempelpersonals3).getMemberNo(), 10000);
+    memberArchive.registerPoints(memberArchive.findMemberByPersonals(eksempelpersonals4).getMemberNo(), 150000);
   }
 
   public void tableWithMembers(){
@@ -114,7 +123,7 @@ public class Main extends Application implements EventHandler<ActionEvent> {
     nrColumn.setMinWidth(50);
     nrColumn.setCellValueFactory(new PropertyValueFactory("memberNo"));
 
-    TableColumn<BonusMember, Personals> nameColumn =  new TableColumn<>("Name");
+    TableColumn<BonusMember, Personals> nameColumn =  new TableColumn<>("Peronals");
     nameColumn.setMinWidth(50);
     nameColumn.setCellValueFactory(new PropertyValueFactory("personals"));
 
