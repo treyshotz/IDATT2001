@@ -1,0 +1,50 @@
+
+o	java:S116"URename this field "GOLD_LIMIT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î›­Ñøÿÿÿÿ
+€
+java:S1488‰"dImmediately return this expression instead of assigning it to the temporary variable "silverMember".(ö÷üÿÿÿÿÿ
+6
+java:S1170	"!Make this final field static too.(„‰™
+
+H
+java:S1481Y"-Remove this unused "notfound" local variable.(Ğğ˜øÿÿÿÿ
+y
+java:S1488³"bImmediately return this expression instead of assigning it to the temporary variable "goldMember".(†Ö›
+T
+java:S1128"?Remove this unused import 'java.util.IllformedLocaleException'.(üû­
+l	java:S116
+"RRename this field "MAX_TRY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øşºııÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+t
+java:S1488u"_Immediately return this expression instead of assigning it to the temporary variable "sMember".(­˜º
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(òÁ½
+O
+java:S1144–"3Remove this unused private "checkGoldLimit" method.(»ş¾›úÿÿÿÿ
+l
+java:S1192p"VDefine a constant instead of duplicating this literal "Could not find member" 4 times.(Âáà
+I
+java:S1135¿"2Complete the task associated to this TODO comment.(Ùä‚å
+H
+java:S1135`"2Complete the task associated to this TODO comment.(ÓñàÍ
+F
+java:S1068
+"+Remove this unused "MAX_TRY" private field.(Øşºııÿÿÿÿ
+k	java:S116	"WRename this field "SILVER_LIMIT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„‰™
+
+_
+java:S1128"DRemove this unused import 'java.awt.image.AreaAveragingScaleFilter'.(şœÄÅùÿÿÿÿ
+<
+java:S1170"!Make this final field static too.(Î›­Ñøÿÿÿÿ
+M
+java:S1135X"2Complete the task associated to this TODO comment.(Íòßºùÿÿÿÿ
+T	java:S106Í"9Replace this use of System.out or System.err by a logger.(ÄµğŸøÿÿÿÿ
+y
+java:S1488Ÿ"bImmediately return this expression instead of assigning it to the temporary variable "goldMember".(Éä¯ó
+<
+java:S1170
+"!Make this final field static too.(Øşºııÿÿÿÿ
+P
+java:S1144l"5Remove this unused private "checkSilverLimit" method.(»€ìóúÿÿÿÿ
+r	java:S116"XRename this field "RANDOM_NUMBER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìşùÿÿÿÿ
+T	java:S106Æ"9Replace this use of System.out or System.err by a logger.(ÄµğŸøÿÿÿÿ

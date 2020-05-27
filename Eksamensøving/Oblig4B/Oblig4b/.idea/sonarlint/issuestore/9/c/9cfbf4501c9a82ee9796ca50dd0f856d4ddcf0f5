@@ -1,0 +1,45 @@
+
+[	java:S106á"9Replace this use of System.out or System.err by a logger.(ÄµğŸøÿÿÿÿ8Ôí×Ü£.
+=
+java:S1170"!Make this final field static too.(„‰™
+8Ôí×Ü£.
+”
+java:S1319"rThe type of the "members" object should be an interface such as "List" rather than the implementation "ArrayList".(Ç‹¸Éÿÿÿÿÿ8–°ˆá£.
+l
+java:S1128"JRemove this unused import 'javax.swing.plaf.nimbus.AbstractRegionPainter'.(Û™º„şÿÿÿÿ8¢˜ûæ£.
+s	java:S116	"RRename this field "MAX_TRY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øşºııÿÿÿÿ8Ôí×Ü£.
+|
+java:S1488…"_Immediately return this expression instead of assigning it to the temporary variable "sMember".(­˜º8Ôí×Ü£.
+V
+java:S1144«"3Remove this unused private "checkGoldLimit" method.(»ş¾›úÿÿÿÿ8‰­Üæ£.
+“
+java:S1319í"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¼ê­ßüÿÿÿÿ8›¡Ùæ£.
+r	java:S116"WRename this field "SILVER_LIMIT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„‰™
+8Ôí×Ü£.
+P
+java:S1135Ú"2Complete the task associated to this TODO comment.(Ùä‚å8Ôí×Ü£.
+M
+java:S1068	"+Remove this unused "MAX_TRY" private field.(Øşºııÿÿÿÿ8‰­Üæ£.
+W
+java:S1144y"5Remove this unused private "checkSilverLimit" method.(»€ìóúÿÿÿÿ8‰­Üæ£.
+T
+java:S1135d"2Complete the task associated to this TODO comment.(Íòßºùÿÿÿÿ8Ôí×Ü£.
+p
+java:S1192€"MDefine a constant instead of duplicating this literal "Date is null" 4 times.(ß¨ıÿÿÿÿ8Ôí×Ü£.
+O
+java:S1481e"-Remove this unused "notfound" local variable.(Ğğ˜øÿÿÿÿ8‰­Üæ£.
+s
+java:S1192}"VDefine a constant instead of duplicating this literal "Could not find member" 4 times.(Âáà8Ôí×Ü£.
+V	java:S106ô"9Replace this use of System.out or System.err by a logger.(ìô•ÿ8¢˜ûæ£.
+‡
+java:S1488"dImmediately return this expression instead of assigning it to the temporary variable "silverMember".(ö÷üÿÿÿÿÿ8Ôí×Ü£.
+O
+java:S1135l"2Complete the task associated to this TODO comment.(ÓñàÍ8Ôí×Ü£.
+C
+java:S1170"!Make this final field static too.(Î›­Ñøÿÿÿÿ8Ôí×Ü£.
+C
+java:S1170	"!Make this final field static too.(Øşºııÿÿÿÿ8Ôí×Ü£.
+y	java:S116
+"XRename this field "RANDOM_NUMBER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìşùÿÿÿÿ8Ôí×Ü£.
+[	java:S106è"9Replace this use of System.out or System.err by a logger.(ÄµğŸøÿÿÿÿ8Ôí×Ü£.
+v	java:S116"URename this field "GOLD_LIMIT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î›­Ñøÿÿÿÿ8Ôí×Ü£.

@@ -1,0 +1,14 @@
+
+L	java:S106"9Replace this use of System.out or System.err by a logger.(ÌÚô¢
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(°£°šúÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(»Ù¶…øÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(Ì ûÒÿÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(ã‚Ç³ûÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(É³Š§
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(žšµ²úÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(ãÉ‹Üþÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(½Ð§ãúÿÿÿÿ
+Œ
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Þýÿÿÿÿ8î°²Ú£.

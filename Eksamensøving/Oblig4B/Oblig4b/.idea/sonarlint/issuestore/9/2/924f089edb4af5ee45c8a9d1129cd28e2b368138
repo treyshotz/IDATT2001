@@ -1,0 +1,29 @@
+
+I
+java:S1602¯",Remove useless curly braces around statement(ÒŞ”8’¤†…¤.
+W
+java:S1128":Remove this unused import 'javafx.scene.layout.StackPane'.(™÷èò8Ã÷Ş£.
+Z	java:S106a"9Replace this use of System.out or System.err by a logger.(ƒØ“Êıÿÿÿÿ8¾ñ–…¤.
+U
+java:S1128
+"3Remove this unused import 'javafx.scene.text.Text'.(˜ÿ‡Üşÿÿÿÿ8œş×ç£.
+Q
+java:S3740%"/Provide the parametrized type for this generic.(°™ºşÿÿÿÿ8Ã÷Ş£.
+f
+java:S3973`"IUse indentation to denote the code conditionally executed by this "else".(ÔÍØ8ÒÌ§…¤.
+Q
+java:S3740"/Provide the parametrized type for this generic.(³ã˜²øÿÿÿÿ8Ğî§ß£.
+\
+java:S1128":Remove this unused import 'com.sun.tools.javac.util.Name'.(³ÚĞÓşÿÿÿÿ8¶ğçà£.
+I
+java:S16024",Remove useless curly braces around statement(Ëúş·8îØÉç£.
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8‘ÚæŞ£.
+W
+java:S1191"5Use classes from the Java API instead of Sun classes.(³ÚĞÓşÿÿÿÿ8¶ğçà£.
+L
+java:S3740T"/Provide the parametrized type for this generic.(ï‰áÖ8İïÖç£.
+P
+java:S1128"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8ò±Éæ£.
+I
+java:S16020",Remove useless curly braces around statement(ş…¨—8üï‘æ£.

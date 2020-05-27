@@ -1,0 +1,13 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(»„Éæ8°¥‡¤.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(€ßã‘8€ƒ‡¤.
+V
+java:S2864"4Iterate over the "entrySet" instead of the "keySet".(®ñ«Êıÿÿÿÿ8û©‹‡¤.
+T	java:S106"9Replace this use of System.out or System.err by a logger.(çÅH8®‡¤.
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(£ÁŸìúÿÿÿÿ8®òî†¤.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(±³¨úÿÿÿÿ8àÈˆ‡¤.
+u
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÍÛ½M8üİ·‡¤.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¬Úíûÿÿÿÿ8üİ·‡¤.
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(ôºÜíüÿÿÿÿ8üİ·‡¤.

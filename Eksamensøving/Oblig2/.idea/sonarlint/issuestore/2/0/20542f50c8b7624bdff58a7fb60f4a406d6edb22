@@ -1,0 +1,17 @@
+
+<
+java:S1170	"!Make this final field static too.(ŠÒãâüÿÿÿÿ
+P
+java:S1128":Remove this unused import 'java.util.concurrent.TimeUnit'.(Æ™þ
+0
+java:S1220""Move this file to a named package.
+r	java:S116	"XRename this field "FACTOR_SILVER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÒãâüÿÿÿÿ
+<
+java:S1170"!Make this final field static too.(ÕÉ‚¹øÿÿÿÿ
+J
+java:S1128"/Remove this unused import 'java.time.Duration'.(ëá¯‰üÿÿÿÿ
+A
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü
+p	java:S116"VRename this field "FACTOR_GOLD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÉ‚¹øÿÿÿÿ
+—
+java:S1186>"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Çµí‘

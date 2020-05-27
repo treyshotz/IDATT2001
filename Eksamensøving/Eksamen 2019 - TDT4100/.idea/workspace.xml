@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9493a2e3-c24c-4feb-a61e-08a33dbb414e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Hashmap/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hashmap/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hashmap/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hashmap/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hashmap/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hashmap/src/First.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hashmap/src/Task1A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig1/Oblig1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig1/src/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig1/src/Deck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig2/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig2/Oblig2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig2/src/BasicMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig2/src/BonusMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig2/src/GoldMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig2/src/MemberArchive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig2/src/Personals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig2/src/SilverMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig2/src/TestBonusMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig2/src/TestPeriod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig3/Oblig3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig3/src/Sit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig3/src/Stand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig3/src/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig3/src/Tribune.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig3/src/TribuneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig3/src/VIP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4/Oblig4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4/src/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4/src/Bat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4/src/Crocodile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4/src/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4/src/Jumpable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4/src/Mammal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4/src/Oviparous.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4/src/Pelican.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4/src/Swimmable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4/src/Walkable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4/src/Whale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4/src/Zoo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4/src/ZooClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4B/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4B/Oblig4b/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4B/Oblig4b/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4B/Oblig4b/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4B/Oblig4b/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4B/Oblig4b/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4B/Oblig4b/Oblig4b.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4B/Oblig4b/Tests/MemberArchiveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4B/Oblig4b/src/BasicMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4B/Oblig4b/src/BonusMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4B/Oblig4b/src/GoldMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4B/Oblig4b/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4B/Oblig4b/src/MemberArchive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4B/Oblig4b/src/Personals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4B/Oblig4b/src/SilverMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4B/Oblig4b/src/TestBonusMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig4B/Oblig4b/src/TestPeriod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Øving4/Øving4-Del2/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Øving4/Øving4-Del2/.idea/Øving4-Del2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Øving4/Øving4-Del2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Øving4/Øving4-Del2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Øving4/Øving4-Del2/.idea/sonarlint/issuestore/8/1/81dc6a441e53064fd676d90a54bdbed8bb400b17" beforeDir="false" afterPath="$PROJECT_DIR$/../../Øving4/Øving4-Del2/.idea/sonarlint/issuestore/8/1/81dc6a441e53064fd676d90a54bdbed8bb400b17" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Øving4/Øving4-Del2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Øving4/Øving4-Del2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Øving4/Øving4-Del2/target/classes/AlertBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Øving4/Øving4-Del2/target/classes/BasicMember.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Øving4/Øving4-Del2/target/classes/BonusMember.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Øving4/Øving4-Del2/target/classes/BonusMemberTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Øving4/Øving4-Del2/target/classes/GoldMember.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Øving4/Øving4-Del2/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Øving4/Øving4-Del2/target/classes/MainApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Øving4/Øving4-Del2/target/classes/MainPageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Øving4/Øving4-Del2/target/classes/MemberArchive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Øving4/Øving4-Del2/target/classes/Personals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Øving4/Øving4-Del2/target/classes/SilverMember.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1cJ3HL4T4Pd2t8EfGW9F9SkO6Us" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9493a2e3-c24c-4feb-a61e-08a33dbb414e" name="Default Changelist" comment="" />
+      <created>1590232779692</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590232779692</updated>
+      <workItem from="1590232781605" duration="119000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>
